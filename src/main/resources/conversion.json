@@ -1,0 +1,238 @@
+{
+  "forge:cobblestone": {
+    "type": "tag",
+    "value": "c:cobblestones"
+  },
+  "forge:cobblestone/normal": {
+    "type": "tag",
+    "value": "c:cobblestones/normal"
+  },
+  "forge:cobblestone/infested": {
+    "type": "tag",
+    "value": "c:cobblestones/infested"
+  },
+  "forge:cobblestone/mossy": {
+    "type": "tag",
+    "value": "c:cobblestones/mossy"
+  },
+  "forge:cobblestone/deepslate": {
+    "type": "tag",
+    "value": "c:cobblestones/deepslate"
+  },
+  "forge:enchanting_fuels": {
+    "type": "tag",
+    "value": "c:gems/lapis"
+  },
+  "forge:glass": {
+    "type": "tag",
+    "value": "c:glass_blocks"
+  },
+  "forge:glass/black": {
+    "type": "item",
+    "value": "minecraft:black_stained_glass"
+  },
+  "forge:glass/blue": {
+    "type": "item",
+    "value": "minecraft:blue_stained_glass"
+  },
+  "forge:glass/brown": {
+    "type": "item",
+    "value": "minecraft:brown_stained_glass"
+  },
+  "forge:glass/colorless": {
+    "type": "tag",
+    "value": "c:glass_blocks/colorless"
+  },
+  "forge:glass/cyan": {
+    "type": "item",
+    "value": "minecraft:cyan_stained_glass"
+  },
+  "forge:glass/gray": {
+    "type": "item",
+    "value": "minecraft:gray_stained_glass"
+  },
+  "forge:glass/green": {
+    "type": "item",
+    "value": "minecraft:green_stained_glass"
+  },
+  "forge:glass/light_blue": {
+    "type": "item",
+    "value": "minecraft:light_blue_stained_glass"
+  },
+  "forge:glass/light_gray": {
+    "type": "item",
+    "value": "minecraft:light_gray_stained_glass"
+  },
+  "forge:glass/lime": {
+    "type": "item",
+    "value": "minecraft:lime_stained_glass"
+  },
+  "forge:glass/magenta": {
+    "type": "item",
+    "value": "minecraft:magenta_stained_glass"
+  },
+  "forge:glass/orange": {
+    "type": "item",
+    "value": "minecraft:orange_stained_glass"
+  },
+  "forge:glass/pink": {
+    "type": "item",
+    "value": "minecraft:pink_stained_glass"
+  },
+  "forge:glass/purple": {
+    "type": "item",
+    "value": "minecraft:purple_stained_glass"
+  },
+  "forge:glass/red": {
+    "type": "item",
+    "value": "minecraft:red_stained_glass"
+  },
+  "forge:glass/silica": {
+    "type": "item",
+    "value": "minecraft:glass"
+  },
+  "forge:glass/tinted": {
+    "type": "tag",
+    "value": "c:glass_blocks/tinted"
+  },
+  "forge:glass/white": {
+    "type": "item",
+    "value": "minecraft:white_stained_glass"
+  },
+  "forge:glass/yellow": {
+    "type": "item",
+    "value": "minecraft:yellow_stained_glass"
+  },
+  "forge:glass_panes": {
+    "type": "tag",
+    "value": "c:glass_panes"
+  },
+  "forge:glass_panes/black": {
+    "type": "item",
+    "value": "minecraft:black_stained_glass_pane"
+  },
+  "forge:glass_panes/blue": {
+    "type": "item",
+    "value": "minecraft:blue_stained_glass_pane"
+  },
+  "forge:glass_panes/brown": {
+    "type": "item",
+    "value": "minecraft:brown_stained_glass_pane"
+  },
+  "forge:glass_panes/colorless": {
+    "type": "tag",
+    "value": "c:glass_pane/colorless"
+  },
+  "forge:glass_panes/cyan": {
+    "type": "item",
+    "value": "minecraft:cyan_stained_glass_pane"
+  },
+  "forge:glass_panes/gray": {
+    "type": "item",
+    "value": "minecraft:gray_stained_glass_pane"
+  },
+  "forge:glass_panes/green": {
+    "type": "item",
+    "value": "minecraft:green_stained_glass_pane"
+  },
+  "forge:glass_panes/light_blue": {
+    "type": "item",
+    "value": "minecraft:light_blue_stained_glass_pane"
+  },
+  "forge:glass_panes/light_gray": {
+    "type": "item",
+    "value": "minecraft:light_gray_stained_glass_pane"
+  },
+  "forge:glass_panes/lime": {
+    "type": "item",
+    "value": "minecraft:lime_stained_glass_pane"
+  },
+  "forge:glass_panes/magenta": {
+    "type": "item",
+    "value": "minecraft:magenta_stained_glass_pane"
+  },
+  "forge:glass_panes/orange": {
+    "type": "item",
+    "value": "minecraft:orange_stained_glass_pane"
+  },
+  "forge:glass_panes/pink": {
+    "type": "item",
+    "value": "minecraft:pink_stained_glass_pane"
+  },
+  "forge:glass_panes/purple": {
+    "type": "item",
+    "value": "minecraft:purple_stained_glass_pane"
+  },
+  "forge:glass_panes/red": {
+    "type": "item",
+    "value": "minecraft:red_stained_glass_pane"
+  },
+  "forge:glass_panes/white": {
+    "type": "item",
+    "value": "minecraft:white_stained_glass_pane"
+  },
+  "forge:glass_panes/yellow": {
+    "type": "item",
+    "value": "minecraft:yellow_stained_glass_pane"
+  },
+  "forge:gravel": {
+    "type": "tag",
+    "value": "c:gravels"
+  },
+  "forge:gunpowder": {
+    "type": "tag",
+    "value": "c:gunpowders"
+  },
+  "forge:leather": {
+    "type": "tag",
+    "value": "c:leathers"
+  },
+  "forge:netherrack": {
+    "type": "tag",
+    "value": "c:netherracks"
+  },
+  "forge:obsidian": {
+    "type": "tag",
+    "value": "c:obsidians"
+  },
+  "forge:sand": {
+    "type": "tag",
+    "value": "c:sands"
+  },
+  "forge:sand/colorless": {
+    "type": "tag",
+    "value": "c:sands/colorless"
+  },
+  "forge:sand/red": {
+    "type": "tag",
+    "value": "c:sands/red"
+  },
+  "forge:sandstone": {
+    "type": "tag",
+    "value": "c:sandstone/blocks"
+  },
+  "forge:stained_glass": {
+    "type": "tag",
+    "value": "c:glass_blocks"
+  },
+  "forge:stained_glass_panes": {
+    "type": "tag",
+    "value": "c:glass_panes"
+  },
+  "forge:stone": {
+    "type": "tag",
+    "value": "c:stones"
+  },
+  "forge:string": {
+    "type": "tag",
+    "value": "c:strings"
+  },
+  "minecraft:music_discs": {
+    "type": "tag",
+    "value": "c:music_discs"
+  },
+  "minecraft:tools": {
+    "type": "tag",
+    "value": "c:tools"
+  }
+}

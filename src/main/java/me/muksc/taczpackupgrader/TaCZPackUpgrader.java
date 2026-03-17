@@ -1,19 +1,13 @@
 package me.muksc.taczpackupgrader;
 
-import net.neoforged.bus.api.IEventBus;
-import net.neoforged.fml.ModContainer;
-import net.neoforged.fml.common.Mod;
-import net.neoforged.fml.loading.FMLPaths;
+import net.fabricmc.api.ModInitializer;
+import net.fabricmc.loader.api.FabricLoader;
 
-@Mod(TaCZPackUpgrader.MOD_ID)
-public class TaCZPackUpgrader {
+public class TaCZPackUpgrader implements ModInitializer {
     public static final String MOD_ID = "taczpackupgrader";
 
-    public static ModContainer container;
-
-    public TaCZPackUpgrader(IEventBus bus, ModContainer container) {
-        TaCZPackUpgrader.container = container;
-
-        Upgrader.INSTANCE.run(FMLPaths.GAMEDIR.get().resolve("tacz"));
+    @Override
+    public void onInitialize() {
+        Upgrader.INSTANCE.run(FabricLoader.getInstance().getGameDir().resolve("tacz"));
     }
 }

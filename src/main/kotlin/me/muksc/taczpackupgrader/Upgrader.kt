@@ -22,11 +22,10 @@ object Upgrader {
     const val SUFFIX = "+1.21.1"
 
     val gson: Gson = GsonBuilder().setPrettyPrinting().create()
-    val conversion: Map<String, Tag> = TaCZPackUpgrader.container.modInfo.owningFile.file
-        .findResource("conversion.json").bufferedReader().use {
-            val type = object : TypeToken<Map<String, Tag>>() { }.type
-            gson.fromJson(it, type)
-        }
+    val conversion: Map<String, Tag> = Upgrader::class.java.getResourceAsStream("/conversion.json")!!.bufferedReader().use {
+        val type = object : TypeToken<Map<String, Tag>>() { }.type
+        gson.fromJson(it, type)
+    }
 
 
     fun run(path: Path) {

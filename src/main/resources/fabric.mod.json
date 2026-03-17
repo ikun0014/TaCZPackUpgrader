@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "${id}",
+  "version": "${version}",
+  "name": "${name}",
+  "description": "",
+  "authors": [
+    "MUKSC"
+  ],
+  "license": "ARR",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.muksc.taczpackupgrader.TaCZPackUpgrader"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-language-kotlin": ">=1.13.0+kotlin.2.1.0"
+  }
+}
